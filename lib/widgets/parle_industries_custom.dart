@@ -29,7 +29,7 @@ class _CustomParleIndustriesState extends State<CustomParleIndustries> {
           child: Row(
             children: [
               Expanded(
-                flex: 4,
+                flex: 5,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
