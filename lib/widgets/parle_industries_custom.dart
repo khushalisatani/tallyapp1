@@ -44,7 +44,10 @@ class _CustomParleIndustriesState extends State<CustomParleIndustries> {
                             });
                           },
                         ),
-                        Text(MyString.parlIndustries,style: MyTextStyle.parlIndustries,)
+                        Text(
+                          MyString.parlIndustries,
+                          style: MyTextStyle.parlIndustries,
+                        )
                       ],
                     ),
                     Padding(
@@ -61,10 +64,11 @@ class _CustomParleIndustriesState extends State<CustomParleIndustries> {
                               ),
                               SizedBox(width: 10),
                               Expanded(
-                                child: Text(MyString.mailId,
-                                  style: (
-                                      TextStyle(overflow: TextOverflow.ellipsis,fontSize: 12)
-                                  ),
+                                child: Text(
+                                  MyString.mailId,
+                                  style: (TextStyle(
+                                      overflow: TextOverflow.ellipsis,
+                                      fontSize: 12)),
                                 ),
                               )
                             ],
@@ -76,7 +80,10 @@ class _CustomParleIndustriesState extends State<CustomParleIndustries> {
                                 image: MyImages.whatsapp,
                               ),
                               SizedBox(width: 5),
-                              Text(MyString.phoneNo,style: MyTextStyle.phoneNoStyle,),
+                              Text(
+                                MyString.phoneNo,
+                                style: MyTextStyle.phoneNoStyle,
+                              ),
                             ],
                           ),
                         ],
@@ -91,18 +98,20 @@ class _CustomParleIndustriesState extends State<CustomParleIndustries> {
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     SizedBox(height: 10),
-                    Text(MyString.totalDue,style: MyTextStyle.totalDue),
+                    Text(MyString.totalDue, style: MyTextStyle.totalDue),
                     SizedBox(height: 5),
-                    Text(MyString.rsTxt,
-                      style: MyTextStyle.rsStyle
-                    ),
+                    Text(MyString.rsTxt, style: MyTextStyle.rsStyle),
                     SizedBox(height: 25),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,
                       children: [
-                        Icon(Icons.call,size: 17,color: Colors.grey,),
+                        Icon(
+                          Icons.call,
+                          size: 17,
+                          color: Colors.grey,
+                        ),
                         SizedBox(width: 7),
-                        Text(MyString.phoneNo,style: MyTextStyle.phoneNoStyle),
+                        Text(MyString.phoneNo, style: MyTextStyle.phoneNoStyle),
                       ],
                     ),
                   ],
