@@ -21,11 +21,11 @@ class _SendBulkMessageState extends State<SendBulkMessage> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
+          floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
           floatingActionButton: FloatingActionButton(
             backgroundColor: MyColors.lightGrey,
             //isExtended: true,
-            child: Center(child: Image.asset(MyImages.send,height: 30)),
+            child: Center(child: Image.asset(MyImages.send, height: 30)),
             onPressed: () {},
           ),
           backgroundColor: MyColors.backgroundGrey,
@@ -48,7 +48,7 @@ class _SendBulkMessageState extends State<SendBulkMessage> {
                     Row(
                       children: [
                         Radio<label>(
-                          activeColor: MyColors.blue,
+                            activeColor: MyColors.blue,
                             value: label.email,
                             groupValue: character,
                             onChanged: (label? value) {
@@ -100,3 +100,5 @@ class _SendBulkMessageState extends State<SendBulkMessage> {
     );
   }
 }
+/*
+https://github.com/khushalisatani/tallyapp1/commits?author=khushalisatani*/
